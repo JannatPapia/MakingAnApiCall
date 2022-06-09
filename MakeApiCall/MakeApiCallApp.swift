@@ -11,7 +11,7 @@ import SwiftUI
 struct MakeApiCallApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PostList()
         }
     }
 }
