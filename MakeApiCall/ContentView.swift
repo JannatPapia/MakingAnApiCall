@@ -13,8 +13,4 @@ struct ContentView: Codable, Identifiable {
     var body: String
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+
