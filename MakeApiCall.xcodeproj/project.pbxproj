@@ -21,6 +21,9 @@
 		37A931F92852A5600068753C /* obserbableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A931F82852A5600068753C /* obserbableObject.swift */; };
 		37A931FB2852BC3D0068753C /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A931FA2852BC3D0068753C /* Timer.swift */; };
 		37A931FE2852C6520068753C /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A931FD2852C6520068753C /* Counter.swift */; };
+		37A932012852D2CC0068753C /* pepoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A932002852D2CC0068753C /* pepoleView.swift */; };
+		37A932032852D2F30068753C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A932022852D2F30068753C /* Person.swift */; };
+		37A932052852DDBD0068753C /* personViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A932042852DDBD0068753C /* personViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		37A931F82852A5600068753C /* obserbableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obserbableObject.swift; sourceTree = "<group>"; };
 		37A931FA2852BC3D0068753C /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		37A931FD2852C6520068753C /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		37A932002852D2CC0068753C /* pepoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pepoleView.swift; sourceTree = "<group>"; };
+		37A932022852D2F30068753C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		37A932042852DDBD0068753C /* personViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 				37055BA72851D26B00F648D1 /* MakeApiCallApp.swift */,
 				37A931EF28528E090068753C /* Model */,
 				37A931F6285290000068753C /* System */,
+				37A931FF2852D2980068753C /* MVVMObservableObject */,
 				37A931FC2852C6260068753C /* StateObject */,
 				37A931F72852A5280068753C /* ObserableObject */,
 				37A931F528528FCB0068753C /* View */,
@@ -194,6 +201,16 @@
 				37A931FD2852C6520068753C /* Counter.swift */,
 			);
 			path = StateObject;
+			sourceTree = "<group>";
+		};
+		37A931FF2852D2980068753C /* MVVMObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+				37A932002852D2CC0068753C /* pepoleView.swift */,
+				37A932022852D2F30068753C /* Person.swift */,
+				37A932042852DDBD0068753C /* personViewModel.swift */,
+			);
+			path = MVVMObservableObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,8 +344,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A931F428528FA40068753C /* PostViewModel.swift in Sources */,
+				37A932012852D2CC0068753C /* pepoleView.swift in Sources */,
 				37055BAA2851D26B00F648D1 /* Service.swift in Sources */,
+				37A932052852DDBD0068753C /* personViewModel.swift in Sources */,
 				37055BD22851F6EB00F648D1 /* PostList.swift in Sources */,
+				37A932032852D2F30068753C /* Person.swift in Sources */,
 				37055BA82851D26B00F648D1 /* MakeApiCallApp.swift in Sources */,
 				37055BD42851F77100F648D1 /* ContentView.swift in Sources */,
 				37A931FE2852C6520068753C /* Counter.swift in Sources */,
