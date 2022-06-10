@@ -18,6 +18,9 @@
 		37055BD42851F77100F648D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37055BD32851F77100F648D1 /* ContentView.swift */; };
 		37A931F128528E200068753C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A931F028528E200068753C /* Post.swift */; };
 		37A931F428528FA40068753C /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A931F328528FA40068753C /* PostViewModel.swift */; };
+		37A931F92852A5600068753C /* obserbableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A931F82852A5600068753C /* obserbableObject.swift */; };
+		37A931FB2852BC3D0068753C /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A931FA2852BC3D0068753C /* Timer.swift */; };
+		37A931FE2852C6520068753C /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A931FD2852C6520068753C /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		37055BD32851F77100F648D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		37A931F028528E200068753C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		37A931F328528FA40068753C /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		37A931F82852A5600068753C /* obserbableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obserbableObject.swift; sourceTree = "<group>"; };
+		37A931FA2852BC3D0068753C /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		37A931FD2852C6520068753C /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,10 @@
 			isa = PBXGroup;
 			children = (
 				37055BA72851D26B00F648D1 /* MakeApiCallApp.swift */,
-				37A931F6285290000068753C /* System */,
 				37A931EF28528E090068753C /* Model */,
+				37A931F6285290000068753C /* System */,
+				37A931FC2852C6260068753C /* StateObject */,
+				37A931F72852A5280068753C /* ObserableObject */,
 				37A931F528528FCB0068753C /* View */,
 				37A931F228528E2B0068753C /* ViewModel */,
 				37055BAB2851D26D00F648D1 /* Assets.xcassets */,
@@ -169,6 +177,23 @@
 				37055BA92851D26B00F648D1 /* Service.swift */,
 			);
 			path = System;
+			sourceTree = "<group>";
+		};
+		37A931F72852A5280068753C /* ObserableObject */ = {
+			isa = PBXGroup;
+			children = (
+				37A931F82852A5600068753C /* obserbableObject.swift */,
+				37A931FA2852BC3D0068753C /* Timer.swift */,
+			);
+			path = ObserableObject;
+			sourceTree = "<group>";
+		};
+		37A931FC2852C6260068753C /* StateObject */ = {
+			isa = PBXGroup;
+			children = (
+				37A931FD2852C6520068753C /* Counter.swift */,
+			);
+			path = StateObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,7 +331,10 @@
 				37055BD22851F6EB00F648D1 /* PostList.swift in Sources */,
 				37055BA82851D26B00F648D1 /* MakeApiCallApp.swift in Sources */,
 				37055BD42851F77100F648D1 /* ContentView.swift in Sources */,
+				37A931FE2852C6520068753C /* Counter.swift in Sources */,
 				37A931F128528E200068753C /* Post.swift in Sources */,
+				37A931F92852A5600068753C /* obserbableObject.swift in Sources */,
+				37A931FB2852BC3D0068753C /* Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
