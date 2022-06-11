@@ -24,6 +24,12 @@
 		37A932012852D2CC0068753C /* pepoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A932002852D2CC0068753C /* pepoleView.swift */; };
 		37A932032852D2F30068753C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A932022852D2F30068753C /* Person.swift */; };
 		37A932052852DDBD0068753C /* personViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A932042852DDBD0068753C /* personViewModel.swift */; };
+		37A9320A285336FA0068753C /* stateNdBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A93209285336FA0068753C /* stateNdBinding.swift */; };
+		37A9320D2853C0C90068753C /* BindableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9320C2853C0C90068753C /* BindableObjectView.swift */; };
+		37A9320F2853CD2D0068753C /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9320E2853CD2D0068753C /* UserSettings.swift */; };
+		37A9321228542CA10068753C /* environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9321128542CA10068753C /* environment.swift */; };
+		37A9321428542CBC0068753C /* userScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9321328542CBC0068753C /* userScore.swift */; };
+		37A93216285435470068753C /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A93215285435470068753C /* ScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +70,12 @@
 		37A932002852D2CC0068753C /* pepoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pepoleView.swift; sourceTree = "<group>"; };
 		37A932022852D2F30068753C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		37A932042852DDBD0068753C /* personViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personViewModel.swift; sourceTree = "<group>"; };
+		37A93209285336FA0068753C /* stateNdBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stateNdBinding.swift; sourceTree = "<group>"; };
+		37A9320C2853C0C90068753C /* BindableObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableObjectView.swift; sourceTree = "<group>"; };
+		37A9320E2853CD2D0068753C /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		37A9321128542CA10068753C /* environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = environment.swift; sourceTree = "<group>"; };
+		37A9321328542CBC0068753C /* userScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userScore.swift; sourceTree = "<group>"; };
+		37A93215285435470068753C /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +130,9 @@
 				37A931EF28528E090068753C /* Model */,
 				37A931F6285290000068753C /* System */,
 				37A931FF2852D2980068753C /* MVVMObservableObject */,
+				37A93210285422D80068753C /* environmentObject */,
+				37A9320B2853C09C0068753C /* BindableObject */,
+				37A93206285336960068753C /* StateAndBinding */,
 				37A931FC2852C6260068753C /* StateObject */,
 				37A931F72852A5280068753C /* ObserableObject */,
 				37A931F528528FCB0068753C /* View */,
@@ -211,6 +226,33 @@
 				37A932042852DDBD0068753C /* personViewModel.swift */,
 			);
 			path = MVVMObservableObject;
+			sourceTree = "<group>";
+		};
+		37A93206285336960068753C /* StateAndBinding */ = {
+			isa = PBXGroup;
+			children = (
+				37A93209285336FA0068753C /* stateNdBinding.swift */,
+			);
+			path = StateAndBinding;
+			sourceTree = "<group>";
+		};
+		37A9320B2853C09C0068753C /* BindableObject */ = {
+			isa = PBXGroup;
+			children = (
+				37A9320C2853C0C90068753C /* BindableObjectView.swift */,
+				37A9320E2853CD2D0068753C /* UserSettings.swift */,
+			);
+			path = BindableObject;
+			sourceTree = "<group>";
+		};
+		37A93210285422D80068753C /* environmentObject */ = {
+			isa = PBXGroup;
+			children = (
+				37A9321128542CA10068753C /* environment.swift */,
+				37A9321328542CBC0068753C /* userScore.swift */,
+				37A93215285435470068753C /* ScoreView.swift */,
+			);
+			path = environmentObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,17 +385,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A9321428542CBC0068753C /* userScore.swift in Sources */,
 				37A931F428528FA40068753C /* PostViewModel.swift in Sources */,
+				37A9321228542CA10068753C /* environment.swift in Sources */,
 				37A932012852D2CC0068753C /* pepoleView.swift in Sources */,
 				37055BAA2851D26B00F648D1 /* Service.swift in Sources */,
 				37A932052852DDBD0068753C /* personViewModel.swift in Sources */,
 				37055BD22851F6EB00F648D1 /* PostList.swift in Sources */,
+				37A9320A285336FA0068753C /* stateNdBinding.swift in Sources */,
 				37A932032852D2F30068753C /* Person.swift in Sources */,
 				37055BA82851D26B00F648D1 /* MakeApiCallApp.swift in Sources */,
+				37A9320D2853C0C90068753C /* BindableObjectView.swift in Sources */,
+				37A93216285435470068753C /* ScoreView.swift in Sources */,
 				37055BD42851F77100F648D1 /* ContentView.swift in Sources */,
 				37A931FE2852C6520068753C /* Counter.swift in Sources */,
 				37A931F128528E200068753C /* Post.swift in Sources */,
 				37A931F92852A5600068753C /* obserbableObject.swift in Sources */,
+				37A9320F2853CD2D0068753C /* UserSettings.swift in Sources */,
 				37A931FB2852BC3D0068753C /* Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
