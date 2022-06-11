@@ -11,11 +11,12 @@ import Combine
 
 class userScore : ObservableObject {
     
-    let didChange = PassthroughSubject<Void, Never>()
+//    let didChange = PassthroughSubject<Void, Never>()
     
-    var scor: Int = 0 {
-        didSet {
-            didChange.send()
-        }
-    }
+    @Published var scor: Int = 0
+//    {
+//        didSet {
+//            didChange.send()
+//        }
+//    }
 }

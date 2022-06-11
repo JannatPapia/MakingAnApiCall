@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct environment: View {
-    @EnvironmentObject var setting : userScore
+    @ObservedObject
+    
+    var setting : userScore
 
     var body: some View {
         VStack {
@@ -31,6 +33,6 @@ struct environment: View {
 
 struct environment_Previews: PreviewProvider {
     static var previews: some View {
-        environment()
+        environment(setting: userScore())
     }
 }

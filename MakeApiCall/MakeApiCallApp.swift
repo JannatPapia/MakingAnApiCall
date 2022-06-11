@@ -11,7 +11,8 @@ import SwiftUI
 struct MakeApiCallApp: App {
     var body: some Scene {
         WindowGroup {
-            PostList()
+            ContentView()
+          //  environment(setting: userScore())
         }
     }
 }
